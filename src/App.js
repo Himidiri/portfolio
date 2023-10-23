@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
+import Contact from "./components/Contact";
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const Body = styled.div`
@@ -41,6 +42,9 @@ function App() {
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
+          <Wrapper>
+            <Contact />
+          </Wrapper>
         </Body>
       </Router>
     </ThemeProvider>
