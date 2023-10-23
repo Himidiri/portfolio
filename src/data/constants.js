@@ -1,3 +1,10 @@
+import mergeXImage from '../images/MergeX.png';
+import diceDuelImage from '../images/DiceDuel.png';
+import mealMateImage from '../images/MealMate.png';
+import skinClinicImage from '../images/SkinClinic Manager.png';
+import dreamHomeImage from '../images/DreamHome.jpeg';
+import jungkookImage from '../images/JK Portfolio.jpeg';
+
 export const Bio = {
   name: "Himidiri Himakanika",
   roles: [
@@ -245,8 +252,7 @@ export const projects = [
     date: "Feb 2023 - Apr 2023",
     description:
       "MergeX is an innovative project that combines advanced NLP technology with gaming. It empowers players with limitless dialogue interactions with NPCs in an open-world game. Unlike traditional games, MergeX provides unscripted, natural conversations with NPCs, revolutionizing the player's immersion in the game world.",
-    image:
-      "https://drive.google.com/file/d/1puRNUdNJKCt4sU2a5jAEL-RGZhvo27vm/view?usp=sharing",
+    image: mergeXImage,
     tags: [
       "Python",
       "C#",
@@ -258,7 +264,6 @@ export const projects = [
     ],
     category: "machine learning",
     github: "https://github.com/Himidiri/MergeX",
-    webapp: "https://github.com/Himidiri/MergeX/releases/tag/v1.0.0",
   },
   {
     id: 1,
@@ -266,8 +271,7 @@ export const projects = [
     date: "Feb 2023 - Mar 2023",
     description:
       "DiceDuel is an Android application developed using the Kotlin programming language. This fun and engaging app simulates a dice game where a human player competes against a computer opponent. The main objective of the game is for players to reach a target score by rolling virtual dice.",
-    image:
-      "https://drive.google.com/file/d/1gv8ZDcpDfVSJhzSN1lk5idHaOTB6lZzh/view?usp=sharing",
+    image: diceDuelImage,
     tags: [
       "Kotlin",
       "Android Studio"
@@ -277,7 +281,6 @@ export const projects = [
       "android app"
     ],
     github: "https://github.com/Himidiri/DiceDuel",
-    webapp: "https://github.com/Himidiri/DiceDuel",
   },
   {
     id: 2,
@@ -285,8 +288,7 @@ export const projects = [
     date: "Mar 2023 - Apr 2023",
     description:
       "MealMate is an Android application designed to assist users with meal preparation. It leverages the <a href='https://www.themealdb.com/api.php/' target='_blank'>TheMealDB</a> web service and the Room Library to manage meal information. This project aims to simplify the process of adding, searching for, and exploring meals for users.",
-    image:
-      "https://drive.google.com/file/d/1mAxfcKyk0L-sP_k61x65Ov9pvnJ-F49q/view?usp=sharing",
+    image: mealMateImage,
     tags: [
       "Kotlin",
       "Android Studio",
@@ -297,7 +299,6 @@ export const projects = [
       "android app"
     ],
     github: "https://github.com/Himidiri/MealMate",
-    webapp: "https://github.com/Himidiri/MealMate",
   },
   {
     id: 3,
@@ -305,8 +306,7 @@ export const projects = [
     date: "Oct 2022 - Jan 2023",
     description:
       "The Skin Clinic Manager System is designed to facilitate the management of a skin consultation centre. It provides functionality for adding and deleting doctors, booking and canceling consultations, and maintaining a list of doctors and their information. The system includes both a console-based menu interface and a graphical user interface (GUI) for ease of use.",
-    image:
-      "https://drive.google.com/file/d/1AN_ZEceJC_XCVNJGj7sUwd5-wU_gfiYg/view?usp=sharing",
+    image: skinClinicImage,
     tags: [
       "Java",
       "Java Swing",
@@ -315,7 +315,6 @@ export const projects = [
     ],
     category: "android app",
     github: "https://github.com/Himidiri/skin-clinic-manager",
-    webapp: "https://github.com/Himidiri/skin-clinic-manager",
   },
   {
     id: 4,
@@ -323,8 +322,7 @@ export const projects = [
     date: "Nov 2022 - Jan 2023",
     description:
       "DreamHome is a web application for estate agents. It enables users to search for properties by type, price, bedrooms, date added, and postcode area. The app uses HTML5 and jQuery UI for a user-friendly interface. Property listings are displayed with images and descriptions. Users can save their favorite properties and view them on a separate page. The project is responsive and prioritizes aesthetics while maintaining security against client-side threats.",
-    image:
-      "https://drive.google.com/file/d/1hBO103B6xN8siIsb7Jsb6PyEM7b31FB8/view?usp=sharing",
+    image: dreamHomeImage,
     tags: [
       "HTML",
       "CSS",
@@ -335,7 +333,6 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Himidiri/dream-homes",
-    webapp: "https://github.com/Himidiri/dream-homes",
   },
   {
     id: 5,
@@ -343,8 +340,7 @@ export const projects = [
     date: "Sep 2022 - Nov 2022",
     description:
       "Jungkook Portfolio is a personal portfolio website for Jungkook, focusing on proper HTML5 and CSS3 implementation. The website includes a main page with social media links, an about page, a page for personal projects or blogs, and a contact form. CSS3 styling is applied using various features such as fonts, colors, shadows, and pseudo-elements. The portfolio is made responsive through media queries to ensure it looks good on smaller screens.",
-    image:
-      "https://drive.google.com/file/d/1w79_TwZCESMDMkG9uOR_AGeG-I4l6NWR/view?usp=sharing",
+    image: jungkookImage,
     tags: [
       "HTML",
       "CSS",
@@ -352,6 +348,6 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Himidiri/jk-portfolio",
-    webapp: "https://github.com/Himidiri/jk-portfolio",
   },
 ];
+
