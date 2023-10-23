@@ -9,6 +9,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
+import Achievement from "./components/Achievements";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -44,6 +45,7 @@ function App() {
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
           <Wrapper>
+            <Achievement />
             <Contact />
           </Wrapper>
           <Footer />

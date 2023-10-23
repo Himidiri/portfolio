@@ -17,20 +17,10 @@ const Description = styled.div`
   width: 100%;
   font-size: 15px;
   font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 99};
-  margin-bottom: 10px;
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
   }
-`;
-
-const List = styled.ul`
-  padding-left: 1.5rem; /* Add indentation for list items */
-`;
-
-const ListItem = styled.li`
-  font-size: 15px;
-  font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 99};
   margin-bottom: 10px;
   @media only screen and (max-width: 768px) {
@@ -50,7 +40,7 @@ const Span = styled.span`
 const Card = styled.div`
   width: 650px;
   border-radius: 10px;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   padding: 12px 16px;
   justify-content: space-between;
   position: relative;
@@ -69,6 +59,8 @@ const Card = styled.div`
     width: 400px;
   }
   @media only screen and (max-width: 499px) {
+    padding: 10px;
+    gap: 8px;
     width: 300px;
   }
   &:hover ${Document} {
@@ -79,7 +71,9 @@ const Card = styled.div`
     overflow: visible;
     -webkit-line-clamp: unset;
   }
-  border: 0.1px solid #854ce6;
+
+  border: 0.1px solid #306ee8;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `;
 
 const Top = styled.div`
@@ -90,7 +84,7 @@ const Top = styled.div`
 
 const Image = styled.img`
   height: 50px;
-  background-color: #fff;
+  background-color: #000;
   border-radius: 10px;
   margin-top: 4px;
   @media only screen and (max-width: 768px) {
@@ -113,15 +107,6 @@ const Name = styled.div`
   }
 `;
 
-const Degree = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-`;
-
 const Date = styled.div`
   font-size: 12px;
   font-weight: 400;
@@ -131,47 +116,28 @@ const Date = styled.div`
   }
 `;
 
-const Grade = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-`;
-
-const EducationCard = ({ education }) => {
+const AchievementCard = ({ achievements }) => {
   return (
     <Card>
       <Top>
-        <Image src={education.img} />
+        <Image src={achievements.img} />
         <Body>
-          <Name>{education.school}</Name>
-          <Degree>{education.degree}</Degree>
-          <Date>{education.date}</Date>
+          <Name>{achievements.name}</Name>
+          <Date>{achievements.date}</Date>
         </Body>
       </Top>
-      <Grade>
-        {education.grade ? (
-          <>
-            <b>Grade: </b>
-            {education.grade}
-          </>
-        ) : null}
-      </Grade>
       <Description>
-        <Span>
-          {education.desc.length > 0 && (
-            <List>
-              {education.desc.map((item, index) => (
-                <ListItem key={index}>{item}</ListItem>
-              ))}
-            </List>
-          )}
-        </Span>
+        <ul>
+          <li dangerouslySetInnerHTML={{ __html: achievements.desc }} />
+        </ul>
       </Description>
+      {achievements.doc && (
+        <a href={achievements.doc} target="new">
+          <Document src={achievements.doc} />
+        </a>
+      )}
     </Card>
   );
 };
 
-export default EducationCard;
+export default AchievementCard;

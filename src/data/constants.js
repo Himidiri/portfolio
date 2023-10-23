@@ -4,6 +4,8 @@ import mealMateImage from '../images/MealMate.png';
 import skinClinicImage from '../images/SkinClinic Manager.png';
 import dreamHomeImage from '../images/DreamHome.jpeg';
 import jungkookImage from '../images/JK Portfolio.jpeg';
+import HackathonImage from '../images/Hackathon.png';
+import certificateImage from '../images/Himidiri Himakanika.jpg';
 
 export const Bio = {
   name: "Himidiri Himakanika",
@@ -354,3 +356,27 @@ export const projects = [
   },
 ];
 
+export const achievements = [
+  {
+    id: 0,
+    img: HackathonImage,
+    name: "UOW Programming Maths & Logic Hackathon",
+    date: "Mar 2023",
+    desc: "Secured <b>3rd place</b> in the UoW-WIUT-IIT problem-solving programming Maths & Logic Hackathon.",
+  },
+  {
+    id: 1,
+    img: "https://codesprint.lk/img/Codesprin7%20logo%20Purple.png",
+    name: "CodeSprint7",
+    date: "Feb 2023 - Apr 2023",
+    desc: " Participated in IEEE IIT's CodeSprint event and selected in the <b>Top 10</b> teams during the <b>BuildSprint</b> phase.",
+    doc: certificateImage,
+  },
+  {
+    id: 2,
+    img: "https://imaginecup.microsoft.com/Library/Main/Images/logos/Imagine%20Cup%20Logo_color_CMYK_JPG.jpg",
+    name: "Imagine Cup",
+    date: "Jan 2023 - Mar 2023",
+    desc: " Participated in the Microsoft-organized Imagine Cup competition",
+  },
+];
