@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavbarContainer, NavLogo, Span, NavItems, NavLink, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyledComponent'
+import { Nav, NavbarContainer, NavLogo, Span, NavItems, NavLink, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileLink } from './NavbarStyle'
 import Logo from '../../images/HHP.png'
 import { FaBars } from 'react-icons/fa'
 import { Bio } from '../../data/constants'
@@ -24,10 +24,10 @@ const Navbar = () => {
         </MobileIcon>
         <NavItems>
           <NavLink href="#about">About</NavLink>
-          <NavLink href='#skills'>Skills</NavLink>
-          <NavLink href='#education'>Education</NavLink>
-          <NavLink href='#projects'>Projects</NavLink>
-          <NavLink href='#contact'>Contact</NavLink>
+          <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#education">Education</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">GitHub</GitHubButton>
