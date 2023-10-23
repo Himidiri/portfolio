@@ -20,7 +20,7 @@ const Contact = () => {
     }
 
     return (
-        <Container>
+        <Container id="contact">
             <Wrapper>
                 <Title>Contact</Title>
                 <Description>Get in touch with me effortlessly using the contact form below. I'm eager to connect and discuss opportunities.</Description>

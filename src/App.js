@@ -10,6 +10,7 @@ import Education from './components/Education';
 import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const Body = styled.div`
@@ -45,6 +46,7 @@ function App() {
           <Wrapper>
             <Contact />
           </Wrapper>
+          <Footer />
         </Body>
       </Router>
     </ThemeProvider>

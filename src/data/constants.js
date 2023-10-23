@@ -21,6 +21,9 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1ACFGpudnnk2SnZYqQWjElhzMMvfCgGac/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/himidiri/",
+  twitter: "https://twitter.com/himakanika",
+  insta: "https://www.instagram.com/himidiri_himakanika/",
+  facebook: "https://www.facebook.com/profile.php?id=100011204287367",
 };
 
 export const skills = [
