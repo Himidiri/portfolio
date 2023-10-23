@@ -1,5 +1,5 @@
-import { Link as LinkR } from 'react-router-dom'
-import styled from 'styled-components'
+import { Link as LinkR } from 'react-router-dom';
+import styled from 'styled-components';
 
 export const Nav = styled.div`
     background-color: ${({ theme }) => theme.card_light};
@@ -14,7 +14,7 @@ export const Nav = styled.div`
     @media (max-width: 960px) {
         trastion: 0.8s all ease;
     }
-`
+`;
 
 export const NavbarContainer = styled.div`
   display: flex;
@@ -25,7 +25,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1200px;
-`
+`;
 
 export const NavLogo = styled(LinkR)`
     width: 80%;    
@@ -37,13 +37,13 @@ export const NavLogo = styled(LinkR)`
     @media (max-width: 640px) {
       padding: 20px 0px 0px 15px;
   }
-`
+`;
 
 export const Span = styled.div`
     padding: 5px 13px;
     font-weight: bold;
     font-size: 18px;
-`
+`;
 
 export const NavItems = styled.ul`
     width: 100%;
@@ -57,7 +57,7 @@ export const NavItems = styled.ul`
     @media screen and (max-width: 768px) {
       display: none;
     }
-`
+`;
 
 export const NavLink = styled.a`
     color: ${({ theme }) => theme.text_primary};
@@ -72,7 +72,7 @@ export const NavLink = styled.a`
     &.active {
       border-bottom: 2px solid ${({ theme }) => theme.primary};
     }
-`
+`;
 
 export const GitHubButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
@@ -95,7 +95,7 @@ export const GitHubButton = styled.a`
     @media screen and (max-width: 768px) { 
     font-size: 14px;
     }
-`
+`;
 
 export const ButtonContainer = styled.div`
   width: 80%;  
@@ -107,7 +107,7 @@ export const ButtonContainer = styled.div`
   @media screen and (max-width: 768px) {
     display: none;
   }
-`
+`;
 
 export const MobileIcon = styled.div`
   display: none;
@@ -121,7 +121,7 @@ export const MobileIcon = styled.div`
     cursor: pointer;
     color: ${({ theme }) => theme.text_primary};
   }
-`
+`;
 
 export const MobileMenu = styled.div`
     display: flex;
@@ -141,8 +141,7 @@ export const MobileMenu = styled.div`
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     z-index: ${({ isOpen }) => (isOpen ? '1000' : '-1000')};
-
-`
+`;
 
 export const MobileMenuItems = styled.ul`
   display: flex;
@@ -153,7 +152,7 @@ export const MobileMenuItems = styled.ul`
   list-style: none;
   width: 100%;
   height: 100%;
-`
+`;
 
 export const MobileMenuLink = styled(LinkR)`
   color: ${({ theme }) => theme.text_primary};
@@ -168,7 +167,7 @@ export const MobileMenuLink = styled(LinkR)`
   &.active {
     border-bottom: 2px solid ${({ theme }) => theme.primary};
   }
-`
+`;
 
 export const MobileMenuButton = styled.a`
   border: 1.8px solid ${({ theme }) => theme.primary};
@@ -189,7 +188,7 @@ export const MobileMenuButton = styled.a`
     background: ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.white};
   }
-`
+`;
 
 export const MobileLink = styled.a`
   color: ${({ theme }) => theme.text_primary};
@@ -204,7 +203,7 @@ export const MobileLink = styled.a`
   &.active {
     border-bottom: 2px solid ${({ theme }) => theme.primary};
   }
-`
+`;
 
 export const MobileNavLogo = styled(LinkR)`
   width: 80%;
@@ -216,4 +215,4 @@ export const MobileNavLogo = styled(LinkR)`
   @media (max-width: 640px) {
     padding: 0 0px;
   }
-`
+`;

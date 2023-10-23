@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -18,7 +18,7 @@ export const HeroContainer = styled.div`
   z-index: 1;
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
-`
+`;
 
 export const HeroBg = styled.div`
   position: absolute;
@@ -42,7 +42,7 @@ export const HeroBg = styled.div`
     justify-content: center;
     padding: 0 0px;
   }
-`
+`;
 
 export const HeroInnerContainer = styled.div`
   position: relative;
@@ -55,7 +55,7 @@ export const HeroInnerContainer = styled.div`
   @media (max-width: 960px) {
     flex-direction: column;
   }
-`
+`;
 
 export const HeroLeftContainer = styled.div`
   width: 100%;
@@ -75,7 +75,7 @@ export const HeroLeftContainer = styled.div`
     flex-direction: column;
     align-items: center;
   }
-`
+`;
 
 export const HeroRightContainer = styled.div`
   width: 100%;
@@ -93,7 +93,7 @@ export const HeroRightContainer = styled.div`
   @media (max-width: 640px) {
     margin-bottom: 30px;
   }
-`
+`;
 
 export const Img = styled.img`
   position: relative;
@@ -113,7 +113,7 @@ export const Img = styled.img`
     max-width: 280px;
     max-height: 280px;
   }
-`
+`;
 
 export const Title = styled.div`
   font-weight: 650;
@@ -129,7 +129,7 @@ export const Title = styled.div`
     line-height: 48px;
     margin-bottom: 8px;
   }
-`
+`;
 
 export const TextLoop = styled.div`
   font-weight: 550;
@@ -146,12 +146,12 @@ export const TextLoop = styled.div`
     line-height: 48px;
     margin-bottom: 16px;
   }
-`
+`;
 
 export const Span = styled.span`
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
-`
+`;
 
 export const SubTitle = styled.div`
   font-size: 20px;
@@ -167,7 +167,7 @@ export const SubTitle = styled.div`
     font-size: 16px;
     line-height: 32px;
   }
-`
+`;
 
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
@@ -202,4 +202,4 @@ export const ResumeButton = styled.a`
         padding: 12px 0;
         font-size: 18px;
     } 
-`
+`;
