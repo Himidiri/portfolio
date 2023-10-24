@@ -79,7 +79,7 @@ const Card = styled.div`
     overflow: visible;
     -webkit-line-clamp: unset;
   }
-  border: 0.1px solid #854ce6;
+  border: 0.1px solid #9444A5;
 `;
 
 const Top = styled.div`

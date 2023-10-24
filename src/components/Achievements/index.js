@@ -21,13 +21,13 @@ const index = () => {
                     <Timeline>
                         {achievements.map((achievements, index) => (
                             <TimelineItem>
-                                <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== achievements.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
-                                </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <AchievementCard achievements={achievements} />
                                 </TimelineContent>
+                                <TimelineSeparator>
+                                    <TimelineDot variant="outlined" color="secondary" />
+                                    {index !== achievements.length - 1 && <TimelineConnector style={{ background: '#990D4F' }} />}
+                                </TimelineSeparator>
                             </TimelineItem>
                         ))}
                     </Timeline>

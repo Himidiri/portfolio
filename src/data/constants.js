@@ -366,7 +366,7 @@ export const achievements = [
   },
   {
     id: 1,
-    img: "https://codesprint.lk/img/Codesprin7%20logo%20Purple.png",
+    img: "https://codesprint.lk/img/Codesprin7%20logo%20white.png",
     name: "CodeSprint7",
     date: "Feb 2023 - Apr 2023",
     desc: " Participated in IEEE IIT's CodeSprint event and selected in the <b>Top 10</b> teams during the <b>BuildSprint</b> phase.",

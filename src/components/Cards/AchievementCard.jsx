@@ -72,7 +72,7 @@ const Card = styled.div`
     -webkit-line-clamp: unset;
   }
 
-  border: 0.1px solid #306ee8;
+  border: 0.1px solid #990D4F;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `;
 

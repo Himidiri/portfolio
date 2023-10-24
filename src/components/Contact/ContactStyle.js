@@ -20,7 +20,7 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 max-width: 1350px;
-padding: 0px 0px 80px 0px;
+padding: 10px 0px 80px 0px;
 gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;
@@ -102,10 +102,11 @@ export const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: rgb(132,18,157);
+background: -moz-linear-gradient(90deg, rgba(132,18,157,1) 8%, rgba(144,19,86,1) 50%, rgba(19,0,96,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(132,18,157,1) 8%, rgba(144,19,86,1) 50%, rgba(19,0,96,1) 100%);
+background: linear-gradient(90deg, rgba(132,18,157,1) 8%, rgba(144,19,86,1) 50%, rgba(19,0,96,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#84129d",endColorstr="#130060",GradientType=1);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;

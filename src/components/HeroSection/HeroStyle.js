@@ -184,10 +184,11 @@ export const ResumeButton = styled.a`
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: rgb(132,18,157);
+    background: -moz-linear-gradient(90deg, rgba(132,18,157,1) 0%, rgba(144,19,86,1) 50%, rgba(110,2,64,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(132,18,157,1) 0%, rgba(144,19,86,1) 50%, rgba(110,2,64,1) 100%);
+    background: linear-gradient(90deg, rgba(132,18,157,1) 0%, rgba(144,19,86,1) 50%, rgba(110,2,64,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#84129d",endColorstr="#6e0240",GradientType=1);
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
     &:hover {
