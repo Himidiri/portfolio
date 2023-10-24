@@ -292,7 +292,7 @@ export const projects = [
     title: "MealMate",
     date: "Mar 2023 - Apr 2023",
     description:
-      "MealMate is an Android application designed to assist users with meal preparation. It leverages the <a href='https://www.themealdb.com/api.php/' target='_blank'>TheMealDB</a> web service and the Room Library to manage meal information. This project aims to simplify the process of adding, searching for, and exploring meals for users.",
+      "MealMate is an Android application designed to assist users with meal preparation. It leverages the https://www.themealdb.com/api.php/ web service and the Room Library to manage meal information. This project aims to simplify the process of adding, searching for, and exploring meals for users.",
     image: mealMateImage,
     tags: [
       "Kotlin",
