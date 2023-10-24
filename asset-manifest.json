@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/portfolio/static/js/main.4f147dc5.js",
+    "static/media/MergeX.png": "/portfolio/static/media/MergeX.0280b097ba3d9e75b34c.png",
+    "static/media/Himidiri Himakanika.jpg": "/portfolio/static/media/Himidiri Himakanika.f5e40224c1a8643f41e6.jpg",
+    "static/media/DiceDuel.png": "/portfolio/static/media/DiceDuel.fbfdb7975c207628f906.png",
+    "static/media/MealMate.png": "/portfolio/static/media/MealMate.eec11221f679e3d36296.png",
+    "static/media/DreamHome.jpeg": "/portfolio/static/media/DreamHome.8e4553adfc5031704ad0.jpeg",
+    "static/media/JK Portfolio.jpeg": "/portfolio/static/media/JK Portfolio.3e40b3a6e32d0f1b1a1d.jpeg",
+    "static/media/SkinClinic Manager.png": "/portfolio/static/media/SkinClinic Manager.7001da62c7652bb10c2e.png",
+    "static/media/Hackathon.png": "/portfolio/static/media/Hackathon.ec49e159ae3ce8ec5683.png",
+    "static/media/HHP.png": "/portfolio/static/media/HHP.25969d50a9e77722c2bc.png",
+    "static/media/Me.jfif": "/portfolio/static/media/Me.ff0d6d6347b31002ca05.jfif",
+    "index.html": "/portfolio/index.html",
+    "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
+    "main.4f147dc5.js.map": "/portfolio/static/js/main.4f147dc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.4f147dc5.js"
+  ]
+}
