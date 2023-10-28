@@ -20,7 +20,7 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 max-width: 1350px;
-padding: 10px 0px 80px 0px;
+padding: 20px 0px 250px 0px;
 gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;
@@ -101,17 +101,26 @@ export const ContactInputMessage = styled.textarea`
 export const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   text-align: center;
-  background: rgb(132,18,157);
-background: -moz-linear-gradient(90deg, rgba(132,18,157,1) 8%, rgba(144,19,86,1) 50%, rgba(19,0,96,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(132,18,157,1) 8%, rgba(144,19,86,1) 50%, rgba(19,0,96,1) 100%);
-background: linear-gradient(90deg, rgba(132,18,157,1) 8%, rgba(144,19,86,1) 50%, rgba(19,0,96,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#84129d",endColorstr="#130060",GradientType=1);
-  padding: 13px 16px;
-  margin-top: 2px;
+  padding: 12px 0px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #84129d2c, 0 0 40px #90135662, 0 0 80px #130060b7;
+  cursor: pointer;
+  background-image: linear-gradient(90deg, #84129d 8%, #901356 50%, #130060 100%);
   border-radius: 12px;
+  margin-top: 2px;
+  transition: all 0.2s ease-in-out !important;
+  &:hover {
+    box-shadow: 0 0 10px rgba(132, 18, 157, 0.137), 0 0 40px #9013562c, 0 0 80px #130060b7;
+    background: none;
+    border: 1px solid #84129d;
+    transform: scale(1.01);
+  }
   border: none;
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
 `;
+

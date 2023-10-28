@@ -25,7 +25,7 @@ const Description = styled.div`
 `;
 
 const List = styled.ul`
-  padding-left: 1.5rem; /* Add indentation for list items */
+  padding-left: 1.5rem; 
 `;
 
 const ListItem = styled.li`
@@ -58,7 +58,7 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.8s ease-in-out;
   &:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);

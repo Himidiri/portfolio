@@ -6,6 +6,7 @@ import dreamHomeImage from '../images/DreamHome.jpeg';
 import jungkookImage from '../images/JK Portfolio.jpeg';
 import HackathonImage from '../images/Hackathon.png';
 import certificateImage from '../images/Himidiri Himakanika.jpg';
+import codeSprinImage from '../images/CodeSprin.jpg';
 
 export const Bio = {
   name: "Himidiri Himakanika",
@@ -366,7 +367,7 @@ export const achievements = [
   },
   {
     id: 1,
-    img: "https://codesprint.lk/img/Codesprin7%20logo%20white.png",
+    img: codeSprinImage,
     name: "CodeSprint7",
     date: "Feb 2023 - Apr 2023",
     desc: " Participated in IEEE IIT's CodeSprint event and selected in the <b>Top 10</b> teams during the <b>BuildSprint</b> phase.",

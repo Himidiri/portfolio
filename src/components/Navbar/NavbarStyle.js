@@ -93,7 +93,7 @@ export const GitHubButton = styled.a`
       color: ${({ theme }) => theme.white};     
     }
     @media screen and (max-width: 768px) { 
-    font-size: 14px;
+    font-size: 20px;
     }
 `;
 
@@ -128,12 +128,13 @@ export const MobileMenu = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 50px;
     position: absolute;
     top: 80px;
     right: 0;
-    width: 70%;
-    padding: 12px 40px 24px 40px;
+    width: 100%;
+    font-size: 20px;
+    padding: 150px 40px 200px 40px;
     background: ${({ theme }) => theme.card_light + 99};
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
@@ -160,6 +161,7 @@ export const MobileMenuLink = styled(LinkR)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  font-size: 30px;
   :hover {
     color: ${({ theme }) => theme.primary};
   }

@@ -11,6 +11,9 @@ const Document = styled.img`
     cursor: pointer;
     opacity: 0.8;
   }
+  @media only screen and (max-width: 768px) {
+    height: 50px;
+  }
 `;
 
 const Description = styled.div`
@@ -48,7 +51,7 @@ const Card = styled.div`
   display: flex;
   flex-direction: column;
   gap: 12px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.8s ease-in-out;
   &:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
     transform: translateY(-5px);
