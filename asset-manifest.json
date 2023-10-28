@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio/static/js/main.5915fab7.js",
+    "main.js": "/portfolio/static/js/main.4b46b249.js",
     "static/media/MergeX.png": "/portfolio/static/media/MergeX.0280b097ba3d9e75b34c.png",
     "static/media/Himidiri Himakanika.jpg": "/portfolio/static/media/Himidiri Himakanika.f5e40224c1a8643f41e6.jpg",
     "static/media/DiceDuel.png": "/portfolio/static/media/DiceDuel.fbfdb7975c207628f906.png",
@@ -15,10 +15,10 @@
     "static/media/Me.jfif": "/portfolio/static/media/Me.ff0d6d6347b31002ca05.jfif",
     "index.html": "/portfolio/index.html",
     "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
-    "main.5915fab7.js.map": "/portfolio/static/js/main.5915fab7.js.map"
+    "main.4b46b249.js.map": "/portfolio/static/js/main.4b46b249.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.5915fab7.js"
+    "static/js/main.4b46b249.js"
   ]
 }
