@@ -134,7 +134,7 @@ export const MobileMenu = styled.div`
     right: 0;
     width: 100%;
     font-size: 20px;
-    padding: 150px 40px 200px 40px;
+    padding: 120px 40px 200px 40px;
     background: ${({ theme }) => theme.card_light + 99};
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};

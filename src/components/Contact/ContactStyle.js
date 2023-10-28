@@ -20,7 +20,7 @@ align-items: center;
 flex-direction: column;
 width: 100%;
 max-width: 1350px;
-padding: 20px 0px 250px 0px;
+padding: 20px 0px 200px 0px;
 gap: 12px;
 @media (max-width: 960px) {
     flex-direction: column;
